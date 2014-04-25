@@ -1,0 +1,105 @@
+table.session-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.session-table .sesion-kind {
+    background: url("sprite-track-icons.png") no-repeat;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+}
+
+.session-table .sesion-kind.business {
+    background-position: 0 0;
+}
+
+.session-table .sesion-kind.back-end {
+    background-position: 0 -40px;
+}
+
+.session-table .sesion-kind.back-end {
+    background-position: 0 -40px;
+}
+
+.session-table .sesion-kind.devops {
+    background-position: 0 -80px;
+}
+
+.session-table .sesion-kind.site-build {
+    background-position: 0 -160px;
+}
+
+.session-table .sesion-kind.front-end {
+    background-position: 0 -160px;
+}
+
+.session-table .dia, .session-table .almuerzo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.session-table .inhabil {
+    background: grey;
+}
+
+.session-table .horario {
+    background: #006666;
+}
+
+.session-table .dificultad-wrapper {
+    vertical-align: middle;
+}
+
+.session-table .dificultad-wrapper .label {
+    float: left;
+}
+
+.session-table .dificultad-wrapper .dificultad {
+    float: left;
+}
+
+.session-table .druplicolin {
+    background: url("druplicon-mini.png");
+    width: 12px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin-right: 2px;
+}
+
+
+
+.session-table tr {
+
+}
+
+.session-table th, .session-table td {
+    padding: 10px;
+}
+
+.session-table th {
+    text-align: center;
+}
+
+.session-table th.dia {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+}
+
+.session-table td {
+    vertical-align: top;
+    width: 16.666666%;
+    border: 1px solid blue;
+}
+
+.session-table td.horario {
+    vertical-align: middle;
+}
+
+.session a {
+    font-weight: bold;
+    color: #592400;
+}

@@ -3,115 +3,35 @@
 <head>
     <meta charset="utf-8"/>
     <title></title>
-    <style type="text/css">
-        .session-table .sesion-kind {
-            background: url("sprite-track-icons.png") no-repeat;
-            display: inline-block;
-            height: 26px;
-            width: 26px;
-        }
 
-        .session-table .sesion-kind.business {
-            background-position: 0 0;
-        }
 
-        .session-table .sesion-kind.back-end {
-            background-position: 0 -40px;
-        }
-
-        .session-table .sesion-kind.back-end {
-            background-position: 0 -40px;
-        }
-
-        .session-table .sesion-kind.devops {
-            background-position: 0 -80px;
-        }
-
-        .session-table .sesion-kind.site-build {
-            background-position: 0 -160px;
-        }
-
-        .session-table .sesion-kind.front-end {
-            background-position: 0 -160px;
-        }
-
-        .clearfix:after {
-            content: ".";
-            display: block;
-            height: 0;
-            clear: both;
-            visibility: hidden;
-        }
-
-        .session-table .dia, .session-table .almuerzo {
-            text-align: center;
-            font-weight: bold;
-        }
-
-        .session-table .inhabil {
-            background: grey;
-        }
-
-        .session-table .horario {
-            background: #006666;
-        }
-
-        .session-table .dificultad-wrapper {
-            vertical-align: middle;
-        }
-
-        .session-table .dificultad-wrapper .label {
-            float: left;
-        }
-
-        .session-table .dificultad-wrapper .dificultad {
-            float: left;
-        }
-
-        .session-table .druplicolin {
-            background: url("druplicon-mini.png");
-            width: 12px;
-            height: 14px;
-            display: block;
-            float: left;
-            margin-right: 1px;
-        }
-
-        table.session-table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        .session-table tr {
-
-        }
-
-        .session-table th, .session-table td {
-            padding: 10px;
-        }
-
-        .session-table th {
-            text-align: center;
-        }
-
-        .session-table th.dia {
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            font-size: 20px;
-        }
-
-        .session-table td {
-            vertical-align: top;
-            width: 16.666666%;
-            border: 1px solid blue;
-        }
-
-        .session-table td.horario {
-            vertical-align: middle;
-        }
-    </style>
-
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/system/system.base.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/system/system.menus.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/system/system.messages.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/system/system.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/comment/comment.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/date/date_api/date.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/date/date_popup/themes/datepicker.1.7.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/field/field.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/mollom/mollom.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/modules/node/node.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/search/search.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/user/user.theme.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/contrib/omega/omega/css/modules/user/user.base.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/views/css/views.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/features/cd_cod_fspeakers/styles.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/ckeditor/ckeditor.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/ctools/css/ctools.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/panels/css/panels.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/views_slideshow/views_slideshow.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/views_slideshow/views_slideshow_controls_text.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/modules/contrib/nice_menus/css/nice_menus.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/custom/drupalcamp/css/drupalcamp.normalize.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/custom/drupalcamp/css/drupalcamp.hacks.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/custom/drupalcamp/css/drupalcamp.styles.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="http://2014.drupalcamp.es/profiles/dc_cod/themes/custom/drupalcamp/css/slider.css?n4idgc" media="all"/>
+    <link type="text/css" rel="stylesheet" href="estilos.css" media="all"/>
 
 </head>
 <body>
@@ -439,7 +359,10 @@
         </div>
     </td>
     <td>
-        <div class="session"><a href="/contratos-y-presupuestos-en-proyectos-drupal">Contratos y presupuestos en proyectos Drupal</a> - sidddi</div>
+        <div class="session"><a href="/contratos-y-presupuestos-en-proyectos-drupal">Contratos y presupuestos en proyectos Drupal</a></div>
+        <div class="ponente">
+            sidddi
+        </div>
 
         <div class="sesion-kind-wrapper"><span class="label">Publico:</span>
 
